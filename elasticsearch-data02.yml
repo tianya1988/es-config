@@ -26,6 +26,8 @@ node.name: tisec-p-hdfs08-data02
 #
 # Add custom attributes to the node:
 #node.attr.rack: r1
+
+# By jason; Processors setting;The number of processors is automatically detected, and the thread pool settings are automatically set based on it.
 processors: 5
 # ----------------------------------- Paths ------------------------------------
 #
