@@ -26,7 +26,7 @@ node.name: tisec-p-hdfs08-data02
 #
 # Add custom attributes to the node:
 #node.attr.rack: r1
-#
+processors: 5
 # ----------------------------------- Paths ------------------------------------
 #
 # Path to directory where to store the data (separate multiple locations by comma):
