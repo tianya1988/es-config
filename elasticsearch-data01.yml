@@ -60,6 +60,8 @@ network.host: tisec-p-hdfs08
 # Set a custom port for HTTP:
 #
 http.port: 9201
+
+#集群的时候不能加这个配置,否则数据节点启动出错
 transport.tcp.port: 9301
 #
 # For more information, consult the network module documentation.

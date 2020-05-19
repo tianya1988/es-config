@@ -37,7 +37,7 @@ path.data: /data/sdg1/esdata,/data/sdh1/esdata,/data/sdi1/esdata,/data/sdj1/esda
 #
 # Path to log files:
 #
-path.logs: /var/log/es/esdata01
+path.logs: /var/log/es/esdata02
 #
 # ----------------------------------- Memory -----------------------------------
 #
@@ -60,7 +60,9 @@ network.host: tisec-p-hdfs08
 # Set a custom port for HTTP:
 #
 http.port: 9202
-transport.tcp.port: 9302
+
+#集群的时候不能加这个配置,否则数据节点启动出错: not enough master nodes discovered during pinging (found [[]], but needed [2]), pinging again
+#transport.tcp.port: 9301
 #
 # For more information, consult the network module documentation.
 #
